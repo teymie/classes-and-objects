@@ -5,7 +5,7 @@ class Student:
         self.age = int(age)
         self.tracks = list(tracks)
         self.score = float(score)
-        print('My name is', name , ',i am' , age , 'years old', ',my track is' , tracks ,'and my score is' , score)
+        print('My name is', name , ',i am' , age , 'years old', ',my tracks are' , tracks ,'and my score is' , score)
     def change_name(self , name):
         self.name = str(name)
         print("My name is",name)
